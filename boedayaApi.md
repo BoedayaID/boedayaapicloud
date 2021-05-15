@@ -5,7 +5,7 @@
 get list of islands api
 
 ##### URL
-http://localhost:8000/api/islands
+http://boedaya.herokuapp.com/api/islands
 
 ##### Method
 GET
@@ -16,7 +16,7 @@ get detail of islands api
 
 
 ##### URL
-http://localhost:8000/api/{id}
+http://boedaya.herokuapp.com/api/islands/{id}
 
 ##### Method
 GET
