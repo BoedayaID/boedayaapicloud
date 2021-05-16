@@ -8,5 +8,5 @@ class Suku extends Model
 {
     //
     
-    protected $table = 'pulau';
+    protected $table = 'suku';
 }
