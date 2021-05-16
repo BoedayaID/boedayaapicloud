@@ -3,20 +3,20 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Pulau;
-class PulauController extends Controller
+use App\Suku;
+class SukuController extends Controller
 {
     //
     public function index()
     {
-        $pulau = Pulau::all();
-        $data = ['pulau'=>$pulau];
+        $suku = Suku::all();
+        $data = ['suku'=>$suku];
         return $data;
     }
 
     public function detail($id)
     {
-        $pulau = Pulau::find($id);
-        return $pulau;
+        $suku = Suku::find($id);
+        return $suku;
     }
 }
