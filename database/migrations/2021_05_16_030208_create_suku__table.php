@@ -21,8 +21,8 @@ class CreateSukuTable extends Migration
             $table->string('bahasa')->nullable();
             $table->string('aksara_kuno')->nullable();
             $table->boolean('aksara_translate')->default('0')->nullable();
-            $table->unsignedBigInteger('suku_id')->nullable();
-            $table->foreign('suku_id')->references('id')->on('suku');
+            $table->unsignedBigInteger('provinsi_id')->nullable();
+            $table->foreign('provinsi_id')->references('id')->on('provinsi');
             $table->timestamps();
         });
     }
