@@ -37,3 +37,7 @@ Route::get('kesenian/{id}','KesenianController@detail');
 
 Route::get('rumah-adat','RumahAdatController@index');
 Route::get('rumah-adat/{id}','RumahAdatController@detail');
+
+
+Route::get('tempat-wisata','TempatWisataController@index');
+Route::get('tempat-wisata/{id}','TempatWisataController@detail');
