@@ -4,8 +4,8 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Island extends Model
+class Pulau extends Model
 {
     //
-    protected $table = 'islands';
+    protected $table = 'pulau';
 }

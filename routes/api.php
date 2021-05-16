@@ -18,8 +18,8 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 
-Route::get('islands', 'IslandController@index');
-Route::get('islands/{id}', 'IslandController@detail');
+Route::get('pulau', 'PulauController@index');
+Route::get('pulau/{id}', 'PulauController@detail');
 
-Route::get('provinces','ProvinceController@index');
-Route::get('provinces/{id}','ProvinceController@detail');
+Route::get('provinsi','ProvinsiController@index');
+Route::get('provinsi/{id}','ProvinsiController@detail');
