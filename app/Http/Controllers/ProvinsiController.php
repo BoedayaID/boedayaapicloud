@@ -19,4 +19,10 @@ class ProvinsiController extends Controller
         $provinsi = Provinsi::find($id);
         return $provinsi;
     }
+
+    public function listprovinsi($id)
+    {    
+        $provinsi = Provinsi::where('pulau_id',$id)->get();
+        return $provinsi;
+    }
 }
