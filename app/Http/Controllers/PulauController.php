@@ -10,7 +10,7 @@ class PulauController extends Controller
     public function index()
     {
         $pulau = pulau::all();
-        $data = ['islands'=>$pulau];
+        $data = ['pulau'=>$pulau];
         return $data;
     }
 
