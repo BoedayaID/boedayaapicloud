@@ -9,7 +9,7 @@ class ProvinsiController extends Controller
     //
     public function index()
     {
-        $provinsi = Province::all();
+        $provinsi = Provinsi::all();
         $data = ['provinsi'=>$provinsi];
         return $data;
     }
