@@ -7,5 +7,5 @@ use Illuminate\Database\Eloquent\Model;
 class Kesenian extends Model
 {
     //
-    protected $table = 'kesenians';
+    protected $table = 'kesenian';
 }
