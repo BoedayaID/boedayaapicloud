@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateProvincesTable extends Migration
+class CreatePulauTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,12 +13,11 @@ class CreateProvincesTable extends Migration
      */
     public function up()
     {
-        Schema::create('provinces', function (Blueprint $table) {
+        Schema::create('pulau', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('province_name');
-            $table->integer('etnic_groups')->nullable();
-            $table->unsignedBigInteger('island_id')->nullable();
-            $table->foreign('island_id')->references('id')->on('islands');
+            $table->string('nama');
+            $table->string('gambar')->nullable();
+            $table->string('deskripsi')->nullable();
             $table->timestamps();
         });
     }
@@ -30,6 +29,6 @@ class CreateProvincesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('provinces');
+        Schema::dropIfExists('pulau');
     }
 }
