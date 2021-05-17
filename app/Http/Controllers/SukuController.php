@@ -19,4 +19,10 @@ class SukuController extends Controller
         $suku = Suku::find($id);
         return $suku;
     }
+    
+    public function listsuku($id)
+    {    
+        $suku = Suku::where('provinsi_id',$id)->get();
+        return $suku;
+    }
 }
