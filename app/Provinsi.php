@@ -13,4 +13,8 @@ class Provinsi extends Model
     public function pulau(){
     	return $this->belongsTo(Pulau::class);
     }
+    
+    public function suku(){
+    	return $this->hasMany(Suku::class);
+    }
 }
