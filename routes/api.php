@@ -23,13 +23,13 @@ Route::get('pulau/{id}', 'PulauController@detail');
 
 Route::get('provinsi','ProvinsiController@index');
 Route::get('provinsi/{id}','ProvinsiController@detail');
-Route::get('provinsi/pulau','ProvinsiController@listprovinsi');
+Route::get('provinsi/list/{id}','ProvinsiController@listprovinsi');
 
 
 
 Route::get('suku','SukuController@index');
 Route::get('suku/{id}','SukuController@detail');
-Route::get('suku/list/{id}','SukuController@listsuku');
+Route::get('provinsi/list/{id}','ProvinsiController@listprovinsi');
 
 Route::get('makanan','MakananController@index');
 Route::get('makanan/{id}','MakananController@detail');
