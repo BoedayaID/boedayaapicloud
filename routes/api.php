@@ -20,10 +20,10 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 Route::get('pulau', 'PulauController@index');
 Route::get('pulau/{id}', 'PulauController@detail');
+Route::get('pulau/{id}/provinsi','ProvinsiController@listprovinsi');
 
 Route::get('provinsi','ProvinsiController@index');
 Route::get('provinsi/{id}','ProvinsiController@detail');
-Route::get('provinsi/{id}/pulau','ProvinsiController@listprovinsi');
 
 
 
