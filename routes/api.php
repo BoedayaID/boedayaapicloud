@@ -23,7 +23,7 @@ Route::get('pulau/{id}', 'PulauController@detail');
 
 Route::get('provinsi','ProvinsiController@index');
 Route::get('provinsi/{id}','ProvinsiController@detail');
-Route::get('provinsi?pulau={id}','ProvinsiController@listprovinsi');
+Route::get('provinsi/{id?}','ProvinsiController@listprovinsi');
 
 
 
