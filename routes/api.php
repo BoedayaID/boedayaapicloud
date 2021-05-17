@@ -26,6 +26,7 @@ Route::get('provinsi','ProvinsiController@index');
 Route::get('provinsi/{id}','ProvinsiController@detail');
 
 
+Route::get('provinsi/{id}/suku','SukuController@listsuku');
 
 Route::get('suku','SukuController@index');
 Route::get('suku/{id}','SukuController@detail');
