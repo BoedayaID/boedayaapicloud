@@ -20,6 +20,16 @@ http://boedaya.herokuapp.com/api/pulau/{id}
 ##### Method
 GET
 
+## Get Provinsi berdasarkan pulau api
+mendapatkan provinsi berdasarkan pulau di indonesia
+
+
+##### URL
+http://boedaya.herokuapp.com/api/pulau/{id}/provinsi
+
+##### Method
+GET
+
 
 
 ## List Provinsi api
@@ -41,6 +51,15 @@ http://boedaya.herokuapp.com/api/provinsi/{id}
 ##### Method
 GET
 
+## Get Suku berdasarkan provinsi api
+mendapatkan suku berdasarkan provinsi di indonesia
+
+
+##### URL
+http://boedaya.herokuapp.com/api/provinsi/{id}/suku
+
+##### Method
+GET
 
 ## List Suku api
 mendapatkan list suku di indonesia
