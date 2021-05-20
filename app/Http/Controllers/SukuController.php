@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Suku;
+use DB;
 class SukuController extends Controller
 {
     //
@@ -17,7 +18,9 @@ class SukuController extends Controller
     public function detail($id)
     {
         
-        $suku = Suku::join('kesenian','suku_id','=','suku.id')->where('provinsi_id',$id)->get();
+        $suku = DB::table('suku')
+        ->join('kesenian','suku_id','=','suku.id')
+        ->where('provinsi_id',$id)->get();
         return $suku;
     }
     
