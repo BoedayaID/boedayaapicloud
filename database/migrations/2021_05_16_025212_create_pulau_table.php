@@ -16,8 +16,6 @@ class CreatePulauTable extends Migration
         Schema::create('pulau', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('nama');
-            $table->string('gambar')->nullable();
-            $table->string('deskripsi')->nullable();
          
         });
     }
