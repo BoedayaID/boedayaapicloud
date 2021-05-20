@@ -23,6 +23,7 @@ class SukuController extends Controller
     public function listsuku($id)
     {    
         $suku = Suku::where('provinsi_id',$id)->get();
-        return $suku;
+        $data = ['suku'=>$suku];
+        return $data;
     }
 }
