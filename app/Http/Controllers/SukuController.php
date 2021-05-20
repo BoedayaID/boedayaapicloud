@@ -16,7 +16,8 @@ class SukuController extends Controller
 
     public function detail($id)
     {
-        $suku = Suku::find($id);
+        
+        $suku = Suku::join('kesenian','suku_id','=','suku.id')->where('provinsi_id',$id)->get();
         return $suku;
     }
     
