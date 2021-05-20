@@ -24,7 +24,7 @@ class ProvinsiController extends Controller
     {    
         
         $provinsi = Provinsi::where('pulau_id','like','%'.$id.'%')->get();
-        $data = ['provinsi'=>$provinsi]
+        $data = ['provinsi'=>$provinsi];
         return $data;
     }
 }
