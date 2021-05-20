@@ -9,4 +9,7 @@ class RumahAdat extends Model
     //
     
     protected $table = 'rumah_adat';
+    public function suku(){
+    	return $this->belongsTo(Suku::class);
+    }
 }

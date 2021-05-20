@@ -8,4 +8,8 @@ class Kesenian extends Model
 {
     //
     protected $table = 'kesenian';
+    
+    public function suku(){
+    	return $this->belongsTo(Suku::class);
+    }
 }
