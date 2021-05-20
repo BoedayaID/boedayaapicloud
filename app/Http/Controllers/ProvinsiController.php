@@ -23,7 +23,7 @@ class ProvinsiController extends Controller
     public function listprovinsi($id)
     {    
         
-        $provinsi = Provinsi::where('pulau_id','like','%'.$id.'%')->get();
+        $provinsi = Provinsi::where('pulau_id','=',$id)->get();
         $data = ['provinsi'=>$provinsi];
         return $data;
     }
