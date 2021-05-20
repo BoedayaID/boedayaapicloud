@@ -19,7 +19,7 @@ class SukuController extends Controller
     {
         
         $suku = DB::table('suku')
-        ->join('kesenian','suku_id','=','suku.id')
+        ->join('kesenian','suku.id','=','kesenian.suku_id')
         ->where('provinsi_id',$id)->get();
         return $suku;
     }
