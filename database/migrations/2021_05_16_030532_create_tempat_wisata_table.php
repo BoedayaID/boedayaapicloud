@@ -22,7 +22,6 @@ class CreateTempatWisataTable extends Migration
             $table->string('alamat')->nullable();
             $table->unsignedBigInteger('suku_id')->nullable();
             $table->foreign('suku_id')->references('id')->on('suku');
-            $table->timestamps();
         });
     }
 

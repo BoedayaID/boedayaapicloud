@@ -21,7 +21,7 @@ class CreateKesenianTable extends Migration
             $table->text('deskripsi')->nullable();
             $table->unsignedBigInteger('suku_id')->nullable();
             $table->foreign('suku_id')->references('id')->on('suku');
-            $table->timestamps();
+            
         });
     }
 

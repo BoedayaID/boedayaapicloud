@@ -18,7 +18,7 @@ class CreatePulauTable extends Migration
             $table->string('nama');
             $table->string('gambar')->nullable();
             $table->string('deskripsi')->nullable();
-            $table->timestamps();
+         
         });
     }
 

@@ -23,7 +23,7 @@ class CreateSukuTable extends Migration
             $table->boolean('aksara_translate')->default('0')->nullable();
             $table->unsignedBigInteger('provinsi_id')->nullable();
             $table->foreign('provinsi_id')->references('id')->on('provinsi');
-            $table->timestamps();
+            
         });
     }
 

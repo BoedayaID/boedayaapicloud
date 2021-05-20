@@ -17,9 +17,10 @@ class CreateProvinsiTable extends Migration
             $table->bigIncrements('id');
             $table->string('nama_provinsi');
             $table->integer('jumlah_suku');
+            $table->string('gambar')->nullable();
             $table->unsignedBigInteger('pulau_id')->nullable();
             $table->foreign('pulau_id')->references('id')->on('pulau');
-            $table->timestamps();
+           
         });
     }
 
