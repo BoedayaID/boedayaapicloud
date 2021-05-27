@@ -21,7 +21,7 @@ class SukuController extends Controller
         ->with('kesenian')
         ->with('rumah_adat')
         ->with('tempat_wisata')
-        ->get();
+        ->first();
         return $suku;
     }
     
