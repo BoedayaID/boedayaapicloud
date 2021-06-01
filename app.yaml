@@ -1,0 +1,27 @@
+runtime: php
+env: flex
+
+runtime_config:
+  document_root: public
+
+# Ensure we skip ".env", which is only for local development
+skip_files:
+  - .env
+
+env_variables:
+  # Put production environment variables here.
+  APP_LOG: errorlog
+  APP_KEY: base64:afsaUefAbik0vtcH8UhGPTHGFIzZUQYWhf5hqzGR4L8=
+  CACHE_DRIVER: database
+  SESSION_DRIVER: database
+  ## Set these environment variables according to your CloudSQL configuration.
+  DB_HOST: localhost
+  DB_DATABASE: laravel
+  DB_USERNAME: root
+  DB_PASSWORD: toor
+  DB_SOCKET: "/cloudsql/stunning-net-313507:us-central1:root"
+
+beta_settings:
+    # for Cloud SQL, set this value to the Cloud SQL connection name,
+    # e.g. "project:region:cloudsql-instance"
+    cloud_sql_instances: "stunning-net-313507:us-central1:root"

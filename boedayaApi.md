@@ -4,7 +4,8 @@
 ## 1. List Pulau api
 mendapatkan list pulau di indonesia
 ##### URL
-http://boedaya.herokuapp.com/api/pulau
+https://stunning-net-313507.uc.r.appspot.com/api/pulau
+
 
 ##### Method
 GET
@@ -16,6 +17,8 @@ mendapatkan provinsi berdasarkan pulau di indonesia
 
 
 ##### URL
+https://stunning-net-313507.uc.r.appspot.com/api/pulau/{id}/provinsi
+
 http://boedaya.herokuapp.com/api/pulau/{id}/provinsi
 
 ##### Method
@@ -26,6 +29,9 @@ GET
 ## 3. List Provinsi api
 mendapatkan list provinsi di indonesia
 ##### URL
+
+https://stunning-net-313507.uc.r.appspot.com/api/provinsi
+
 http://boedaya.herokuapp.com/api/provinsi
 
 ##### Method
@@ -38,6 +44,7 @@ mendapatkan suku berdasarkan provinsi di indonesia
 
 
 ##### URL
+https://stunning-net-313507.uc.r.appspot.com/api/provinsi/{id}/suku
 http://boedaya.herokuapp.com/api/provinsi/{id}/suku
 
 ##### Method
@@ -48,6 +55,7 @@ mendapatkan detail suku di indonesia
 
 
 ##### URL
+https://stunning-net-313507.uc.r.appspot.com/api/suku/{id}
 http://boedaya.herokuapp.com/api/suku/{id}
 
 ##### Method
