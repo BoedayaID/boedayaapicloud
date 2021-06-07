@@ -78,6 +78,6 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
 ## Cloud
-Creating database using Cloud SQL in Google Cloud Platform, for storing data about indonesian culture
-Deploying Laravel Backend using App Engine for connecting Cloud SQL with Android 
+-Creating database using Cloud SQL in Google Cloud Platform, for storing data about indonesian culture
+-Deploying Laravel Backend / API using App Engine for connecting Cloud SQL with Android 
 
