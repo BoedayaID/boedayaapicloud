@@ -19,7 +19,6 @@ get provinsi by pulau in indonesia
 ##### URL
 https://stunning-net-313507.uc.r.appspot.com/api/pulau/{id}/provinsi
 
-http://boedaya.herokuapp.com/api/pulau/{id}/provinsi
 
 ##### Method
 GET
