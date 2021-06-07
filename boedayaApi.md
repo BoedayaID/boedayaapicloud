@@ -53,7 +53,7 @@ get detail suku in indonesia
 
 ##### URL
 https://stunning-net-313507.uc.r.appspot.com/api/suku/{id}
-http://boedaya.herokuapp.com/api/suku/{id}
+
 
 ##### Method
 GET
