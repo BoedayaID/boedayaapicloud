@@ -32,7 +32,6 @@ get provinsi list in indonesia
 
 https://stunning-net-313507.uc.r.appspot.com/api/provinsi
 
-http://boedaya.herokuapp.com/api/provinsi
 
 ##### Method
 GET
@@ -45,7 +44,6 @@ get suku by provinsi in indonesia
 
 ##### URL
 https://stunning-net-313507.uc.r.appspot.com/api/provinsi/{id}/suku
-http://boedaya.herokuapp.com/api/provinsi/{id}/suku
 
 ##### Method
 GET
