@@ -58,3 +58,6 @@ https://stunning-net-313507.uc.r.appspot.com/api/suku/{id}
 ##### Method
 GET
 
+## 6.Cloud
+Creating database using Cloud SQL in Google Cloud Platform, for storing data about indonesian culture and,
+Deploying Laravel Backend using App Engine for connecting Cloud SQL with Android 
